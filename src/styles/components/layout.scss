@@ -1,0 +1,45 @@
+@use "@/styles/utils/mixins" as *;
+@use "@/styles/utils/breackpoints" as *;
+
+.content-wrapper {
+  width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
+
+  @include min($tab-width) {
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+  }
+
+  @include min($desk-width) {
+    width: 1200px;
+  }
+}
+
+.common-section {
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  @include min($tab-width) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.section-parent {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.section-text {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

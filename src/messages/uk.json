@@ -1,6 +1,57 @@
 {
-  "HomePage": {
-    "title": "Вітаємо в борщі!",
-    "about": "З яким продуктом ви себе асоціюєте?"
+  "Header": {
+    "header_logo": "Логотип",
+    "about_us": "Про нас",
+    "our_projects": "Наші проєкти",
+    "our_services": "Що ми пропонуємо",
+    "our_feedbacks": "Відгуки",
+    "our_contacts": "Контакти",
+    "header_en_locale": "En",
+    "header_uk_locale": "Ua"
+  },
+  "Hero": {
+    "hero_header": "Borscht Agency - маркетинг, зібраний у систему",
+    "hero_description": "Беремо на себе повний цикл: стратегія, брендинг, контент, реклама, лендинги, аналітика та оптимізація воронки, щоб бізнес стабільно отримував нових клієнтів.",
+    "hero_conversion": "Залишити заявку"
+  },
+  "AboutUs": {
+    "about_title": "Хто ми",
+    "about_content_1": "Ви коли-небудь пробували борщ без буряка або без картоплі? Він начебто і борщ, але відчуваєш — чогось не вистачає. Без цих інгредієнтів це вже зовсім інша страва.",
+    "about_content_2": "Так само і ваш бізнес: щоб він працював на повну потужність і був впізнаваним, недостатньо лише Instagram чи сайту. Тільки разом вони дають повноцінний результат. Саме тому ми назвали нашу агенцію «Борщ» — тут ви отримуєте повний діджитал-цикл: від створення сайтів до стратегій, реклами та контенту, щоб ваш бізнес працював ефективно і залучав якомога більше клієнтів.",
+    "about_content_3": "Разом ми створюємо «борщ» для вашого бізнесу — повноцінний, насичений і результативний.",
+    "about_content_4": "На перший місяць співпраці діє знижка 30%, щоб ви могли спробувати смак нашої роботи."
+  },
+  "OurProjects": {
+    "projects_title": "Наші проєкти",
+    "projects_content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic unde perspiciatis rerum recusandae eligendi fuga itaque fugit asperiores dicta repudiandae!"
+  },
+  "OurServices": {
+    "services_title": "Що ми пропонуємо",
+    "services_content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic unde perspiciatis rerum recusandae eligendi fuga itaque fugit asperiores dicta repudiandae!"
+  },
+  "OurFeedbacks": {
+    "feedbacks_title": "Відгуки",
+    "feedbacks_content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic unde perspiciatis rerum recusandae eligendi fuga itaque fugit asperiores dicta repudiandae!"
+  },
+  "Footer": {
+    "footer_contacts": "Контакти"
+  },
+  "Burger": {
+    "burger_lang_en": "Англійська",
+    "burger_lang_uk": "Українська",
+    "about_us": "Про нас",
+    "our_projects": "Наші проєкти",
+    "our_services": "Що ми пропонуємо",
+    "our_feedbacks": "Відгуки",
+    "our_contacts": "Контакти",
+    "burger_social_title": "Наші соцмережі"
+  },
+  "Form": {
+    "form_title": "Форма",
+    "form_name": "Імʼя",
+    "form_email": "Пошта",
+    "form_name_placeholder": "Введіть своє імʼя",
+    "form_email_placeholder": "Введіть свій імейл",
+    "form_submit": "Відправити форму"
   }
 }
