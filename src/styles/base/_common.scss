@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+.fl {
+  display: flex;
+}
+
+.fl-c-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fl-j-c {
+  display: flex;
+  justify-content: center;
+}
+
+.fl-a-c {
+  display: flex;
+  align-items: center;
+}
+
+.g-4 {
+  gap: 4px;
+}
+
+.g-8 {
+  gap: 8px;
+}

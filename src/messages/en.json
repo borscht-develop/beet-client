@@ -1,6 +1,57 @@
 {
-  "HomePage": {
-    "title": "Welcome to borscht!",
-    "about": "What food do you associate yourself with?"
+  "Header": {
+    "header_logo": "Logo",
+    "about_us": "About us",
+    "our_projects": "Our projects",
+    "our_services": "What we offer",
+    "our_feedbacks": "Feedback",
+    "our_contacts": "Contacts",
+    "header_en_locale": "En",
+    "header_uk_locale": "Ua"
+  },
+  "Hero": {
+    "hero_header": "Borscht Agency: full-cycle marketing for ambitious brands",
+    "hero_description": "We build marketing systems that combine strategy, branding, content, advertising, landing pages, analytics and funnel optimization to help businesses attract clients consistently.",
+    "hero_conversion": "Leave a request"
+  },
+  "AboutUs": {
+    "about_title": "Who we are",
+    "about_content_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis, cupiditate ut hic voluptas aut nihil dignissimos architecto obcaecati asperiores corporis minus qui deleniti consequuntur recusandae, enim consectetur, reprehenderit at!",
+    "about_content_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis, cupiditate ut hic voluptas aut nihil dignissimos architecto obcaecati asperiores corporis minus qui deleniti consequuntur recusandae, enim consectetur, reprehenderit at!",
+    "about_content_3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis, cupiditate ut hic voluptas aut nihil dignissimos architecto obcaecati asperiores corporis minus qui deleniti consequuntur recusandae, enim consectetur, reprehenderit at!",
+    "about_content_4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis, cupiditate ut hic voluptas aut nihil dignissimos architecto obcaecati asperiores corporis minus qui deleniti consequuntur recusandae, enim consectetur, reprehenderit at!"
+  },
+  "OurProjects": {
+    "projects_title": "Our projects",
+    "projects_content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloribus assumenda perferendis adipisci deleniti officia rem ut? Qui, asperiores aliquam odit repellat placeat dignissimos laboriosam praesentium nihil illum tenetur facilis, assumenda pariatur nam nisi, odio unde. Vitae culpa in placeat."
+  },
+  "OurServices": {
+    "services_title": "What we offer",
+    "services_content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloribus assumenda perferendis adipisci deleniti officia rem ut? Qui, asperiores aliquam odit repellat placeat dignissimos laboriosam praesentium nihil illum tenetur facilis, assumenda pariatur nam nisi, odio unde. Vitae culpa in placeat."
+  },
+  "OurFeedbacks": {
+    "feedbacks_title": "Feedbacks",
+    "feedbacks_content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloribus assumenda perferendis adipisci deleniti officia rem ut? Qui, asperiores aliquam odit repellat placeat dignissimos laboriosam praesentium nihil illum tenetur facilis, assumenda pariatur nam nisi, odio unde. Vitae culpa in placeat."
+  },
+  "Footer": {
+    "footer_contacts": "Contacts"
+  },
+  "Burger": {
+    "burger_lang_en": "English",
+    "burger_lang_uk": "Ukrainian",
+    "about_us": "About us",
+    "our_projects": "Our projects",
+    "our_services": "What we offer",
+    "our_feedbacks": "Feedback",
+    "our_contacts": "Contacts",
+    "burger_social_title": "Our social media"
+  },
+  "Form": {
+    "form_title": "Form",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_name_placeholder": "Type your name",
+    "form_email_placeholder": "Type your email",
+    "form_submit": "Submit form"
   }
 }

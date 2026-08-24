@@ -1,0 +1,18 @@
+@use "@/styles/utils/mixins" as *;
+@use "@/styles/utils/breackpoints" as *;
+@use "@/styles/components/header/header-settings.scss";
+@use "@/styles/components/header/header-burger.scss";
+@use "@/styles/components/header/header-list.scss";
+
+.header {
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+
+  &__wrapper {
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

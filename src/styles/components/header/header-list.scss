@@ -1,0 +1,26 @@
+@use "@/styles/utils/mixins" as *;
+@use "@/styles/utils/breackpoints" as *;
+
+.header {
+  &__block {
+    &-list {
+      display: none;
+
+      @include min($desk-width) {
+        display: flex;
+        gap: 16px;
+        margin-left: auto;
+        margin-right: 32px;
+      }
+    }
+
+    &-link {
+      font-size: 16px;
+      transition: color 250ms ease-in;
+
+      &:hover {
+        color: #3c7864;
+      }
+    }
+  }
+}

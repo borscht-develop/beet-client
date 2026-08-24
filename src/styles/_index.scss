@@ -1,4 +1,11 @@
-@forward "./base/fonts";
-@forward "./base/normalize";
-@forward "./utils/variables";
-@forward "./utils/mixins";
+@use "./variables.css";
+@use "./base/fonts";
+@use "./base/normalize";
+@use "./base/common";
+@use "./components/layout";
+@use "./components/header/header";
+@use "./components/hero/hero";
+@use "./components/section-about/about-us";
+@use "./components/footer/footer";
+@use "./components/burger/burger";
+@use "./components/form/form";

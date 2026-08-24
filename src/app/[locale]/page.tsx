@@ -1,24 +1,37 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import Header from "@/components/Header/Header";
+import Hero from "@/components/Hero/Hero";
+// import AboutUs from "@/components/AboutUs/AboutUs";
+// import OurProjects from "@/components/OurProjects/OurProjects";
+// import OurOffers from "@/components/OurServices/OurServices";
+// import Feedbacks from "@/components/OurFeedbacks/OurFeedbacks";
+import Footer from "@/components/Footer/Footer";
+import Burger from "@/components/Burger/Burger";
+import Form from "@/components/Form/Form";
 
 export default function HomePage() {
-  const t = useTranslations("HomePage");
-
   return (
     <div>
-      <div>
-        <Link href="/" locale="en">
-          Switch to En
-        </Link>
-        <Link href="/" locale="uk">
-          Switch to Uk
-        </Link>
-      </div>
+      <Header />
 
-      <h1>{t("title")}</h1>
-      <p>{t("about")}</p>
+      <main>
+        <Hero />
+
+        {/* <AboutUs /> */}
+
+        {/* <OurProjects /> */}
+
+        {/* <OurOffers /> */}
+
+        {/* <Feedbacks /> */}
+      </main>
+
+      <Footer />
+
+      <Burger />
+
+      <Form />
     </div>
   );
 }
